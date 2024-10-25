@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tech Solutions</title>
+    <meta name="author" content="Krinna Patel" />
+    <meta
+      name="description"
+      content="This cozy cafe has a warm and inviting ambiance, with wooden furniture, dim lights, and relaxing music."
+    />
+    <meta name="keywords" content="coffee, cafe" />
+    <link rel="stylesheet" href="./pages/index.css" />
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="page">
+      <header class="header">
+        <nav class="nav">
+          <img src="" alt="" class="nav__logo" />
+          <ul class="nav__links">
+            <li>
+              <a href="#about" class="nav__link">About</a>
+            </li>
+            <li>
+              <a href="#book" class="nav__link">Book a appoitment</a>
+            </li>
+            <li>
+              <a href="#services" class="nav__link">Services</a>
+            </li>
+            <li>
+              <a href="#contacts" class="nav__link">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+        <h1 class="header__title">
+          <span class="header__span-accent">Tech Support</span> in Franklin MA
+        </h1>
+        <p class="header__description">Welcome to Tech Solutions</p>
+        <img src="" alt="" class="header__image" />
+        <div class="header__footer">
+          <div>
+            <p class="header__paragraph">Hours:</p>
+            <p class="header__paragraph">Monday - Friday (10:00 - 19:00)</p>
+            <p class="header__paragraph">Saturday - Sunday (11:00 - 18:00)</p>
+          </div>
+          <p class="header__paragraph">Franklin</p>
+        </div>
+      </header>
+      <main class="content">
+        <section id="about" class="recipes">
+          <h2 class="recipes__title">About</h2>
+          <p class="recipes__subtitle">About business</p>
+        </section>
+        <section id="book" class="reservation">
+          <h2 class="reservation__title">Book a appointment</h2>
+          <form class="reservation__form form">
+            <fieldset class="form__fieldset">
+              <label for="name-input" class="form__label">
+                Name *
+                <input
+                  class="form__input"
+                  id="name-input"
+                  type="text"
+                  required
+                  placeholder="Name Surname"
+                />
+              </label>
+              <label for="number-input" class="form__label">
+                Number of hours *
+                <input
+                  class="form__input"
+                  id="number-input"
+                  type="number"
+                  required
+                  placeholder="1-8"
+                  min="1"
+                  max="8"
+                />
+              </label>
+              <label for="datetime-input" class="form__label">
+                Date & time *
+                <input
+                  class="form__input"
+                  id="datetime-input"
+                  type="datetime-local"
+                  required
+                />
+              </label>
+              <label for="email-input" class="form__label">
+                Your email *
+                <input
+                  class="form__input"
+                  id="email-input"
+                  type="email"
+                  required
+                  placeholder="email@email.com"
+                />
+              </label>
+            </fieldset>
+            <button class="form__button">Book a appointment</button>
+            <label
+              for="checkbox-input"
+              class="form__label form__label_type_checkbox"
+            >
+              <input
+                class="form__checkbox"
+                id="checkbox-input"
+                type="checkbox"
+                required
+              />
+              I agree with the terms of use
+            </label>
+          </form>
+        </section>
+        <section id="services" class="menu">
+          <h2 class="menu__title">Services</h2>
+          <p class="menu__subtitle">
+            We are offering service on the weekend now!!
+          </p>
+        </section>
+        <section class="about">
+          <h2 class="about__title">About Tech Solution</h2>
+          <div class="about__content">
+            <p class="about__paragraph">Network, WiFi, etc services</p>
+            <p class="about__paragraph">
+              Our main mission is keeping customers satisfied
+            </p>
+            <p class="about__paragraph">
+              Besides that, we try to reduce our environmental impact
+            </p>
+          </div>
+          <div class="about__circle"></div>
+          <div class="about__circle about__circle_animation_blurred"></div>
+        </section>
+      </main>
+      <footer id="contacts" class="footer">
+        <div class="footer__content">
+          <img src="" alt="" class="footer__logo" />
+          <div class="footer__column">
+            <h3 class="footer__column-heading">Social Media</h3>
+            <ul class="footer__list">
+              <li class="footer__list-item">
+                <a href="#" class="footer__social-link">
+                  <img src="" alt="" class="footer__social-icon" />Facebook
+                </a>
+              </li>
+              <li class="footer__list-item">
+                <a href="#" class="footer__social-link">
+                  <img src="" alt="" class="footer__social-icon" />Instagram
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <p class="footer__copyright">&copy; 2024 Tech Solutions</p>
+      </footer>
+    </div>
+  </body>
+</html>
